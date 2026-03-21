@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container */
+.setup-container {
+  text-align: center;
+  width: 400px;
+}
+
+/* Title */
+h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+/* Progress bar */
+.progress-box {
+  width: 100%;
+  height: 10px;
+  background: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.progress-bar {
+  width: 0%;
+  height: 100%;
+  background: #0096d6;
+  transition: width 0.4s ease;
+}
+
+/* Status text */
+#statusText {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Loader spinner */
+.loader {
+  border: 4px solid #eee;
+  border-top: 4px solid #0096d6;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 0 auto 20px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Download button */
+#downloadBtn {
+  background: #0096d6;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+
+
+.step {
+  padding: 10px 5px;
+}
+
+.step-btn, .step2-btn {
+  background: linear-gradient(to right, #1e90ff, #0066ff);
+  border: none;
+  border-radius: 8px;
+  padding: 6px 14px;
+  color: white;
+}
+
+.progress-bar {
+  background-color: #0096d6;
+}

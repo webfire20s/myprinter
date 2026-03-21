@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Setup Running</title>
+
+  <!-- Bootstrap (REQUIRED) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+
+  <!-- Your CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    body {
+      font-family: 'Poppins';
+      background: #fff;
+    }
+
+    .step {
+      padding: 10px;
+    }
+
+    .step-btn, .step2-btn {
+      background: linear-gradient(to right, #1e90ff, #0066ff);
+      border: none;
+      border-radius: 8px;
+      padding: 6px 14px;
+      color: white;
+    }
+
+    .progress {
+      background-color: #eee;
+    }
+
+    .progress-bar {
+      background-color: #0096d6;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container mt-3">
+  <div class="modal-body" id="modalContent">
+
+    <!-- STEP 1 -->
+    <div id="step1" class="step">
+      <p style="font-size:16px;">Select Wi-Fi or USB connection?</p>
+      <hr>
+
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <div><b>USB:</b> Connect via USB</div>
+        <button class="btn step-btn">Let's Start →</button>
+      </div>
+
+      <div class="d-flex justify-content-between align-items-center">
+        <div><b>WIFI:</b> Connect via Wifi.</div>
+        <button class="btn step-btn">Let's Start →</button>
+      </div>
+    </div>
+
+    <!-- STEP 2 -->
+    <div id="step2" class="step text-center" style="display:none;">
+      <button class="btn step2-btn mb-3">Let's Start →</button>
+      <p>Start Printer Setup Wizard</p>
+      <img src="printer.png" style="width:70%;">
+    </div>
+
+    <!-- STEP 3 -->
+    <!-- STEP 3 - DEVICE DETECT -->
+    <div id="step3" class="step text-center" style="display:none;">
+        <h5 id="modalTitle">Searching for printers...</h5>
+        <p id="statusText">Scanning devices...</p>
+    </div>
+
+    <!-- STEP 4 - COMPATIBILITY -->
+    <div id="step4" class="step text-center" style="display:none;">
+        <h5>Checking system compatibility...</h5>
+        <ul style="list-style:none;">
+            <li>✔ OS Supported</li>
+            <li>✔ Driver Available</li>
+            <li>✔ Firmware Verified</li>
+        </ul>
+    </div>
+
+    <!-- STEP 5 - INSTALL -->
+    <div id="step5" class="step text-center" style="display:none;">
+        <h5>Installing drivers...</h5>
+        <div class="progress mt-3" style="height:8px;">
+            <div id="progressBar" class="progress-bar" style="width:0%"></div>
+        </div>
+        <p id="statusText">Initializing...</p>
+    </div>
+
+    <!-- STEP 6 - FINALIZING -->
+    <div id="step6" class="step text-center" style="display:none;">
+        <h5>Finalizing setup...</h5>
+        <p>Verifying device integrity...</p>
+    </div>
+
+    <!-- STEP 7 - DOWNLOAD -->
+    <div id="step7" class="step text-center" style="display:none;">
+        <h5>Driver Ready</h5>
+        <button class="btn btn-primary">Download & Install</button>
+    </div>
+
+    <!-- STEP 8 - SUPPORT -->
+    <div id="step8" class="step text-center" style="display:none;">
+        <h5>Need Help?</h5>
+        <p>
+            Installation incomplete?<br>
+            Call <b>+1 888 408 0730</b>
+        </p>
+    </div>
+
+  </div>
+</div>
+
+<!-- jQuery (REQUIRED for your JS) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Your Script -->
+<script src="script.js"></script>
+
+</body>
+</html>
