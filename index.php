@@ -1,4 +1,6 @@
-
+<?php
+opcache_reset();
+?>
 <!doctype html>
 <html lang="en">
 
