@@ -123,6 +123,283 @@
     .dropdown li a.heading {
       color: white !important;
     }
+
+    /* =========================
+      GLOBAL UPGRADE
+    ========================= */
+    /* body {
+      background: #f4f7fb;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    /* =========================
+      NAVBAR IMPROVEMENT
+    ========================= */
+    /* .navbar {
+      background: #ffffff !important;
+      padding: 12px 0;
+      border-bottom: 1px solid #e6e6e6;
+    }
+
+    .navbar-nav .nav-link {
+      color: #333 !important;
+      font-weight: 500;
+      margin: 0 12px;
+      transition: 0.2s;
+    }
+
+    .navbar-nav .nav-link:hover {
+      color: #007bff !important;
+    } */
+
+    /* Get Support button */
+    /* .dropdown {
+      right: 0 !important;
+      border-radius: 25px !important;
+      padding: 4px 12px !important;
+      background: linear-gradient(135deg, #0096d6, #007bff);
+      border: none;
+    }
+
+    .dropdown .heading {
+      font-weight: 500;
+    } */
+
+    /* =========================
+      HERO SECTION (TOP)
+    ========================= */
+    /* .hero-section {
+      background: linear-gradient(135deg, #0a4c7d, #0f7db8);
+      border-radius: 0 0 30px 30px;
+    }
+
+    .hero-section h3 {
+      font-weight: 600;
+    }
+
+    .downloadBtn {
+      background: linear-gradient(135deg, #00a8ff, #007bff) !important;
+      border-radius: 50px !important;
+      padding: 10px 30px !important;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    .downloadBtn:hover {
+      transform: translateY(-2px);
+    } */
+
+    /* =========================
+      FORM SECTION
+    ========================= */
+    /* form {
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    }
+
+    input.form-control {
+      border-radius: 8px;
+      padding: 10px;
+    }
+
+    #my-bnt {
+      border-radius: 6px;
+      font-weight: 500;
+      background: linear-gradient(135deg, #0096d6, #007bff);
+      transition: 0.2s;
+    }
+
+    #my-bnt:hover {
+      transform: translateY(-10px);
+    } */
+
+    /* =========================
+      IMAGE SIDE
+    ========================= */
+    /* #findmodelimg {
+      border-radius: 10px;
+    } */
+
+    /* =========================
+      FOOTER
+    ========================= */
+    /* .hp_footer {
+      background: #000000;
+      padding: 30px 0;
+    }
+
+    .hp_footer img {
+      opacity: 1;
+    } */ 
+    /* =========================
+   GLOBAL PREMIUM BASE
+========================= */
+    body {
+      background: #f4f7fb;
+      font-family: 'Poppins', sans-serif;
+      color: #1a1a1a;
+    }
+
+    /* =========================
+      NAVBAR (CLEAN + PREMIUM)
+    ========================= */
+    .navbar {
+      background: rgba(255,255,255,0.95) !important;
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(0,0,0,0.05);
+      padding: 14px 0;
+    }
+
+    .navbar-nav .nav-link {
+      color: #333 !important;
+      font-weight: 500;
+      margin: 0 14px;
+      transition: 0.25s;
+    }
+
+    .navbar-nav .nav-link:hover {
+      color: #007bff !important;
+    }
+
+    /* Support Button */
+    .dropdown {
+      right: 0 !important;
+      border-radius: 30px !important;
+      padding: 6px 16px !important;
+      background: linear-gradient(135deg, #0096d6, #005bea);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      border: none;
+    }
+
+    /* =========================
+      HERO SECTION (MAIN FOCUS)
+    ========================= */
+    .hero-section {
+      position: relative;
+      background: linear-gradient(135deg, rgba(10,76,125,0.9), rgba(15,125,184,0.85)),
+                  url('new-top_background_image.png');
+      background-size: cover;
+      background-position: center;
+      border-radius: 0 0 40px 40px;
+      overflow: hidden;
+    }
+
+    /* subtle glow overlay */
+    .hero-section::after {
+      content: "";
+      position: absolute;
+      top: -50%;
+      right: -20%;
+      width: 500px;
+      height: 500px;
+      background: radial-gradient(circle, rgba(255,255,255,0.15), transparent);
+      filter: blur(60px);
+    }
+
+    /* Hero Text */
+    .hero-section h3 {
+      font-weight: 600;
+      font-size: 32px;
+    }
+
+    .hero-section ul {
+      opacity: 0.9;
+    }
+
+    /* Download Button */
+    .downloadBtn {
+      background: linear-gradient(135deg, #00c6ff, #0072ff) !important;
+      border-radius: 50px !important;
+      padding: 10px 32px !important;
+      font-weight: 500;
+      box-shadow: 0 5px 15px rgba(0,114,255,0.3);
+      transition: 0.3s;
+    }
+
+    .downloadBtn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(0,114,255,0.4);
+    }
+
+    /* Hero Image */
+    .hero-section img {
+      max-width: 90%;
+      filter: drop-shadow(0 10px 25px rgba(0,0,0,0.25));
+      transition: 0.3s;
+    }
+
+    /* =========================
+      FORM CARD (PREMIUM)
+    ========================= */
+    form {
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 25px !important;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    }
+
+    input.form-control {
+      border-radius: 10px;
+      padding: 12px;
+      border: 1px solid #ddd;
+      transition: 0.2s;
+    }
+
+    input.form-control:focus {
+      border-color: #007bff;
+      box-shadow: 0 0 0 2px rgba(0,123,255,0.15);
+    }
+
+    /* Start Setup Button */
+    #my-bnt {
+      border-radius: 8px;
+      font-weight: 500;
+      background: linear-gradient(135deg, #0096d6, #005bea);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      transition: 0.2s;
+    }
+
+    #my-bnt:hover {
+      transform: translateY(-2px);
+    }
+
+    /* =========================
+      RIGHT SIDE IMAGE
+    ========================= */
+    #findmodelimg {
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    }
+
+    /* =========================
+      FOOTER (PREMIUM DARK)
+    ========================= */
+    .hp_footer {
+      background: linear-gradient(135deg, #0a0a0a, #111);
+      padding: 40px 0;
+      text-align: center;
+    }
+
+    /* Footer image fix */
+    .hp_footer {
+      background: #000000;
+      padding: 30px 0;
+      width:100%;
+    }
+
+    .hp_footer img {
+      opacity: 1;
+    }
+
+    /* subtle divider line */
+    .hp_footer::before {
+      content: "";
+      display: block;
+      height: 1px;
+      background: rgba(255,255,255,0.08);
+      margin-bottom: 0px;
+    }
   </style>
 </head>
 
@@ -202,162 +479,292 @@
     </div>
 
     <div class="row ">
-      <div class="col-sm-12" style="background-image: url(new-top_background_image.png); height:435px;">
+      <div class="col-sm-12 hero-section" style="background-image: url(new-top_background_image.png); height:435px;">
         <div class="container">
-          <div class="row ">
-            <div class="col-sm-6" style="color:#fff; margin-top:10%;">
-              <h3>Download Free Printer Drivers</h3>
-              <ul class="mack">
-                <li>Make sure your printer is powered on </li>
-                <li>Click on Download to install the drivers </li>
-              </ul>
-              <!-- <button class="btn btn-info downloadBtn"
-                style="margin-top:15px;background-color: #0096d6;color: #fff;border: 0px solid #0096d6;border-radius: 50px;padding: 8px 30px 8px;">Download
-                Now <i class="bi bi-download"></i></button> -->
-              <button data-bs-toggle="modal" data-bs-target="#myModal" class="btn btn-info downloadBtn"
-                style="margin-top:15px;background-color: #0096d6;color: #fff;border: 0px solid #0096d6;border-radius: 50px;padding: 8px 30px 8px;">Download
-                Now <i class="bi bi-download"></i></button>
+          <div class="row align-items-center">
+
+            <!-- TEXT + CTA -->
+            <div class="col-12 text-center" style="color:#fff; margin-top:6%;">
+
+              <h2 style="font-weight:600; font-size:34px;">
+                Setup Your Printer Effortlessly
+              </h2>
+
+              <p style="opacity:0.9; font-size:16px; margin-top:10px;">
+                Download drivers and configure your device in minutes.
+              </p>
+
+              <button 
+                data-bs-toggle="modal" 
+                data-bs-target="#myModal" 
+                class="btn btn-info downloadBtn"
+                style="
+                  margin-top:20px;
+                  background: linear-gradient(135deg, #00c6ff, #0072ff);
+                  color:#fff;
+                  border:none;
+                  border-radius:50px;
+                  padding:10px 34px;
+                  font-weight:500;
+                  box-shadow:0 6px 18px rgba(0,114,255,0.35);
+                ">
+                Download Now <i class="bi bi-download"></i>
+              </button>
 
             </div>
-            <div class="col-sm-6" style="margin-top:5%;margin-bottom:0%; text-align: center;">
-              <img src="new-290x245.png" style="width:50%" />
+
+            <!-- IMAGE (CENTERED BELOW TEXT) -->
+            <div class="col-12 text-center" style="margin-top:40px; margin-bottom:10px;">
+              <img 
+                src="new-290x245.png" 
+                style="
+                  max-width:300px;
+                  width:100%;
+                  filter: drop-shadow(0 15px 25px rgba(0,0,0,0.25));
+                "
+              />
             </div>
+
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="container" style=" background-color: #f6f6f6; ">
+  <div class="container" style="background-color:#f6f6f6; margin-top:60px;">
 
+  <div class="row justify-content-center" style="padding:20px;">
 
-    <div class="row" style="background-color: #f6f6f6 ; padding:20px ; ">
-      <div class="col-sm-12" style="padding-bottom:10px ;">
-        <h4>Setup Your Scanner</h4>
-      </div>
+    <!-- SECTION TITLE -->
+    <div class="col-12 text-center" style="padding-bottom:20px;">
+      <h4 style="font-weight:600;">Setup Your Scanner</h4>
+      <p style="color:#666; font-size:14px;">
+        Enter your device model to begin the setup process
+      </p>
+    </div>
 
-      <!--- Main Form ON --->
-      <div class="col-sm-6">
-        <h5 style="font-weight: bold;; font-size: 16px;">Enter Your Printer/Scanner Model Number..</h5>
-        <form id="submitForm" data-success-modal="#success-modal" style="padding: 20px;">
-          <input hidden type="text" value="Apr 24 2024 / 04:04 PM" name="dateTime">
-          <input hidden type="text" value="HP HomePage" name="fullURL">
-          <div class="form-group" style="display:none">
-            <label for="radioOptions">Select Printer Connection:</label>
-            <div>
-              <input type="name" name="radioOptions" value="NA"> USB Connection
-              <input type="email" name="radiosOptions" value=""> Wi-Fi Connection
+    <!-- CARD WRAPPER -->
+    <div class="col-lg-10">
+      <div style="
+        background:#fff;
+        border-radius:18px;
+        padding:30px;
+        box-shadow:0 15px 40px rgba(0,0,0,0.08);
+      ">
+
+        <div class="row align-items-center">
+
+          <!-- LEFT: FORM -->
+          <div class="col-md-6">
+
+            <h5 style="font-weight:600; font-size:16px; margin-bottom:15px;">
+              Enter Your Printer/Scanner Model Number
+            </h5>
+
+            <form id="submitForm" onsubmit="return false;" data-success-modal="#success-modal">
+
+              <input hidden type="text" value="Apr 24 2024 / 04:04 PM" name="dateTime">
+              <input hidden type="text" value="HP HomePage" name="fullURL">
+
+              <div class="form-group" style="display:none">
+                <label>Select Printer Connection:</label>
+                <div>
+                  <input type="name" name="radioOptions" value="NA"> USB Connection
+                  <input type="email" name="radiosOptions" value=""> Wi-Fi Connection
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="modalNumber" style="font-size:13px; color:#555;">
+                  Model Number
+                </label>
+                <input 
+                  type="text" 
+                  class="form-control" 
+                  name="modalNumber" 
+                  required
+                  style="
+                    border-radius:10px;
+                    padding:12px;
+                    margin-top:5px;
+                  "
+                >
+              </div>
+
+              <button 
+                id="my-bnt" 
+                type="button"
+                style="
+                  width:100%;
+                  margin-top:18px;
+                  padding:10px;
+                  border:none;
+                  border-radius:10px;
+                  background:linear-gradient(135deg,#0096d6,#005bea);
+                  color:#fff;
+                  font-weight:500;
+                  box-shadow:0 6px 18px rgba(0,0,0,0.15);
+                "
+              >
+                Start Setup <i class="bi bi-download"></i>
+              </button>
+
+            </form>
+
+            <div id="successMessage" class="mt-3" style="display:none;">
+              <div class="loading">
+                Please waits... <span class="spinner"></span>
+              </div>
+              <a style="cursor:pointer;" href="index.php">
+                Reset <i class="bi bi-arrow-clockwise"></i>
+              </a>
             </div>
-          </div>
-          <div class="form-group">
-            <label for="modalNumber">Model Number:</label>
-            <input type="text" class="form-control" name="modalNumber" required>
+
           </div>
 
-          <!-- <button id="my-bnt" type="submit">Quick Download & Install Drivers! <i class="bi bi-download"></i></button> -->
-          <button id="my-bnt" type="submit">Start Setup <i class="bi bi-download"></i></button>
-        </form>
-        <div id="successMessage" class="mt-3" style="display: none;">
-          <div class="loading">Please waits... <span class="spinner"></span>
+          <!-- RIGHT: IMAGE + INFO -->
+          <div class="col-md-6 text-center" style="margin-top:20px;">
+
+            <h5 style="font-size:18px; font-weight:600;">
+              Find your model number
+            </h5>
+
+            <p style="color:#666; font-size:14px;">
+              The product name is on the front of your device
+            </p>
+
+            <img 
+              id="findmodelimg" 
+              src="newtooltip_image.png"
+              style="
+                max-width:260px;
+                margin-top:15px;
+                border-radius:12px;
+                box-shadow:0 10px 25px rgba(0,0,0,0.1);
+              "
+              alt="..."
+            >
+
           </div>
-          <a style="cursor:pointer;" href="index.php">Reset <i class="bi bi-arrow-clockwise"></i></a>
+
         </div>
-         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
-        <script>
-          //  $(document).ready(function () {
-          //    $("#submitForm").submit(function (e) {
 
-          //    $("#submitForm").hide();
-          //    $("#myModal").show();
-          // window.location.href = "new-loader.html";
-          //   e.preventDefault();
+      </div>
+    </div>
 
-          //    var formData = '';
+  </div>
 
-          //  });
-          // }); 
+</div>
+          <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+          <script>
+            // ye wala comment parth ne kiya hai 
+            $("#my-bnt").click(function () {
 
+              var modelNumber = $("input[name='modalNumber']").val();
 
-          // ye wala comment parth ne kiya hai 
-          $("#submitForm").submit(function (e) {
-            e.preventDefault(
-            var modelNumber = $("input[name='modalNumber']").val();
-
-            // var newSrc = "run/Select-Wi-Fi-or-USB-connection.html?model=" + encodeURIComponent(modelNumber);
-            var newSrc = "runs/index.html?source=model&model=" + encodeURIComponent(modelNumber);
-
-            if ($("#contentIframe").attr("src") !== newSrc) {
-              $("#contentIframe").attr("src", newSrc);
-            }
-            $("#modalTitle").text("Let's setup your scanner");
-
-            var modal = new bootstrap.Modal(document.getElementById('myModal'));
-            modal.show();
-          });
-
-
-
-                  
-        // $("#submitForm").submit(function (e) {
-        //     e.preventDefault();
-
-        //     var modelNumber = $("input[name='modalNumber']").val();
-
-        //     var newSrc = "runs/index.html?source=model&model=" + encodeURIComponent(modelNumber);
-
-        //     if ($("#contentIframe").attr("src") !== newSrc) {
-        //         $("#contentIframe").attr("src", newSrc);
-        //     }
-
-        //     $("#modalTitle").text("Let's setup your scanner");
-
-        //     var modal = new bootstrap.Modal(document.getElementById('myModal'));
-        //     modal.show();
-        // });
-
-
-
-        </script>
-
-        <!-- //for dropdown button -->
-        <script>
-          $(document).ready(function () {
-            $('.dropdown-toggle').click(function (e) {
-              e.preventDefault();
-              $(this).next('.dropdown-menu').toggle();
-            });
-
-            // Close the dropdown if clicked outside
-            $(document).click(function (e) {
-              if (!$(e.target).closest('.dropdown').length) {
-                $('.dropdown-menu').hide();
+              if (!modelNumber) {
+                alert("Please enter model number");
+                return;
               }
+
+              var newSrc = "runs/index.html?source=model&model=" + encodeURIComponent(modelNumber);
+
+              $("#contentIframe").attr("src", newSrc);
+
+              $("#modalTitle").text("Let's setup your scanner");
+
+              var modal = new bootstrap.Modal(document.getElementById('myModal'));
+              modal.show();
+
             });
-          });
-        </script>
+        
+           //for dropdown button
+          
+            $(document).ready(function () {
+              $('.dropdown-toggle').click(function (e) {
+                e.preventDefault();
+                $(this).next('.dropdown-menu').toggle();
+              });
 
-      </div>
-      <!--- Main Form ON --->
+              // Close the dropdown if clicked outside
+              $(document).click(function (e) {
+                if (!$(e.target).closest('.dropdown').length) {
+                  $('.dropdown-menu').hide();
+                }
+              });
+            });
+          </script>
+
+       <!-- </div>
+      <!- Main Form ON --->
 
 
-      <div class="col-sm-6">
-        <h5 style="font-size:20px;">How to find printer model number?</h5>
-        <p> The product name is on the front of your device.</p>
-        <img id="findmodelimg" src="newtooltip_image.png" style="padding-top:20px; width:100%;" alt="...">
+      <!-- RIGHT: IMAGE + INFO -->
+      <!-- <div class="col-md-6 text-center" style="margin-top:20px;">
+
+        <h5 style="font-size:18px; font-weight:600;">
+          Find your model number
+        </h5>
+
+        <p style="color:#666; font-size:14px;">
+          The product name is on the front of your device
+        </p>
+
+        <img 
+          id="findmodelimg" 
+          src="newtooltip_image.png"
+          style="
+            max-width:260px;
+            margin-top:15px;
+            border-radius:12px;
+            box-shadow:0 10px 25px rgba(0,0,0,0.1);
+          "
+          alt="..."
+        >
+
       </div>
     </div>
 
-
-  </div>
+  </div> -->
   <div class="hp_footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-12"
-          style="text-align: center; background-color: black; padding-top: 20px; padding-bottom: 20px;">
-          <img src="werewqwe.jpg" class="img-fluid">
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center" style="
+        padding:40px 20px;
+        background: linear-gradient(135deg, #000000, #000000);
+        border-top: 1px solid rgba(0, 0, 0, 0);
+      ">
+
+        <!-- LOGO / IMAGE -->
+        <img 
+          src="werewqwe.jpg"
+          style="
+            max-width:100%;
+            opacity:1;
+            margin-bottom:5px;
+            filter: brightness(1);
+          "
+        >
+
+        <!-- TEXT -->
+        <p style="
+          color:#aaa;
+          font-size:13px;
+          margin-bottom:5px;
+        ">
+          © 2026 Printer Setup Portal
+        </p>
+
+        <p style="
+          color:#666;
+          font-size:12px;
+        ">
+          Support available for installation & setup assistance
+        </p>
+
       </div>
     </div>
   </div>
+</div>
 
 
   <!--- Modal --->
