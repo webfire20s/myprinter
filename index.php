@@ -1,5 +1,5 @@
 <?php
-opcache_reset();
+// opcache_reset();
 ?>
 <!doctype html>
 <html lang="en">
@@ -839,10 +839,18 @@ opcache_reset();
   <script>
     $(".downloadBtn").click(function () {
 
-        $("#modalTitle").text("Let's setup your printer");
+      localStorage.setItem("fromDownloadBtn", "yes");
 
-        // Load runs page
-        $("#contentIframe").attr("src", "runs/index.html");
+      $("#modalTitle").text("Let's setup your printer");
+
+      // ✅ FORCE iframe reload (VERY IMPORTANT)
+      let iframe = $("#contentIframe");
+
+      iframe.attr("src", ""); // clear first
+
+      setTimeout(() => {
+        iframe.attr("src", "runs/index.html?source=download&time=" + new Date().getTime());
+      }, 100); // small delay ensures reload
 
     });
 

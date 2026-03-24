@@ -2,122 +2,130 @@
 // STEP NAVIGATION
 // =============================
 
-// STEP 1 → STEP 2
 $(document).on("click", ".step-btn", function () {
   $(".step").hide();
-  $("#step2").show();
+  $("#step2").fadeIn();
 });
 
-// STEP 2 → STEP 3
 $(document).on("click", ".step2-btn", function () {
   $(".step").hide();
-  $("#step3").show();
-  startFlow(); // 🔥 start full sequence
+  $("#step3").fadeIn();
+  simulateDetection();
 });
 
 // =============================
-// FLOW CONTROLLER
+// STEP 3 → DETECT DEVICE
 // =============================
-
-const progressBar = document.getElementById("progressBar");
-const statusText = document.getElementById("statusText");
-const title = document.getElementById("modalTitle");
-
-// MASTER FLOW
-function startFlow() {
-
-  // STEP 3 → DEVICE DETECTION
-  title.innerText = "Searching for printers...";
-  statusText.innerText = "Scanning devices...";
-
-  setTimeout(() => {
-    statusText.innerText = "HP LaserJet 22992 detected ✅";
-  }, 1500);
-
-  setTimeout(() => {
-    $(".step").hide();
-    $("#step4").show();
-  }, 3000);
-
-  // STEP 4 → COMPATIBILITY
-  setTimeout(() => {
-    $(".step").hide();
-    $("#step5").show();
-    runInstall();
-  }, 5000);
-}
-
-// =============================
-// INSTALLATION PROGRESS
-// =============================
-
-function runInstall() {
-  let progress = 0;
-
-  const messages = [
-    "Downloading drivers...",
-    "Installing package...",
-    "Configuring device...",
-    "Optimizing performance..."
+function simulateDetection() {
+  let messages = [
+    "Scanning for connected devices...",
+    "Detecting printer...",
+    "Establishing secure connection..."
   ];
 
   let i = 0;
 
   let interval = setInterval(() => {
-    progress += 10;
-
-    if (progressBar) progressBar.style.width = progress + "%";
-    if (statusText) statusText.innerText = messages[i % messages.length];
-
+    $("#statusText").text(messages[i]);
     i++;
 
-    if (progress >= 100) {
+    if (i >= messages.length) {
       clearInterval(interval);
 
-      // STEP 6 → FINALIZING
       setTimeout(() => {
         $(".step").hide();
-        $("#step6").show();
+        $("#step4").fadeIn();
+        simulateCompatibility();
       }, 800);
-
-      // STEP 7 → DRIVER READY
-      setTimeout(() => {
-        $(".step").hide();
-        $("#step7").show();
-      }, 2500);
-
-      // STEP 8 → SUPPORT MESSAGE
-      setTimeout(() => {
-        $(".step").hide();
-        $("#step8").show();
-      }, 5000);
     }
-
-  }, 400);
+  }, 1200);
 }
 
 // =============================
-// DOWNLOAD BUTTON (RESET FLOW)
+// STEP 4 → COMPATIBILITY
 // =============================
+function simulateCompatibility() {
+  setTimeout(() => {
+    $(".step").hide();
+    $("#step5").fadeIn();
+    runInstall();
+  }, 2000);
+}
 
-$(document).on("click", ".downloadBtn", function () {
-  $("#modalTitle").text("Let's setup your scanner");
+// =============================
+// STEP 5 → INSTALL (FIXED)
+// =============================
+function runInstall() {
 
+  let progressBar = document.getElementById("progressBar");
+  let progress = 0;
+
+  let interval = setInterval(() => {
+    progress += Math.random() * 12;
+
+    if (progress > 85) progress = 85;
+
+    progressBar.style.width = progress + "%";
+
+    // ✅ FIX: correct ID
+    $("#installStatusText").text(
+      "Installing drivers... " + Math.floor(progress) + "%"
+    );
+
+    if (progress >= 85) {
+      clearInterval(interval);
+
+      setTimeout(() => {
+        $("#installErrorBox").fadeIn();
+      }, 1000);
+    }
+
+  }, 700);
+}
+
+// =============================
+// DRIVER CHECK
+// =============================
+$(document).on("click", "#checkDriversBtn", function () {
   $(".step").hide();
-  $("#step1").show();
-
-  // Reset progress
-  if (progressBar) progressBar.style.width = "0%";
-  if (statusText) statusText.innerText = "Initializing...";
+  $("#step6").fadeIn();
+  simulateDriverCheck();
 });
 
-// =============================
-// CLOSE MODAL RESET
-// =============================
+function simulateDriverCheck() {
+  let messages = [
+    "Analyzing system configuration...",
+    "Checking driver compatibility...",
+    "Detecting missing dependencies...",
+    "Attempting auto-repair..."
+  ];
 
-$(document).on("click", ".btn-close", function () {
+  let i = 0;
+
+  let interval = setInterval(() => {
+    $("#step6Text").text(messages[i]); // ✅ FIXED ID
+    i++;
+
+    if (i >= messages.length) {
+      clearInterval(interval);
+
+      setTimeout(() => {
+        $(".step").hide();
+        $("#step8").fadeIn();
+      }, 1200);
+    }
+
+  }, 1200);
+}
+
+// =============================
+// RESET
+// =============================
+$(document).on("click", ".downloadBtn, .btn-close", function () {
   $(".step").hide();
   $("#step1").show();
 
-  if (progressBar) progressBar.style.width = "0%";
+  $("#progressBar").css("width", "0%");
+  $("#installErrorBox").hide();
+  $("#installStatusText").text("Initializing...");
 });
