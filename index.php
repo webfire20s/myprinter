@@ -250,7 +250,7 @@
       background: rgba(255,255,255,0.95) !important;
       backdrop-filter: blur(10px);
       border-bottom: 1px solid rgba(0,0,0,0.05);
-      padding: 10px 0;
+      padding: 5px 0;
     }
 
     .navbar-nav .nav-link {
@@ -412,7 +412,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container">
             <a class="navbar-brand" href="./">
-              <img src="new-hp-logo.png" style="width: 100px;">
+              <img src="new-hp-logo.png" style="width: 55px;">
             </a>
             <button id="nab" class="navbar-toggler " type="button" data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
