@@ -250,7 +250,7 @@
       background: rgba(255,255,255,0.95) !important;
       backdrop-filter: blur(10px);
       border-bottom: 1px solid rgba(0,0,0,0.05);
-      padding: 14px 0;
+      padding: 10px 0;
     }
 
     .navbar-nav .nav-link {
@@ -385,8 +385,8 @@
 
     /* Footer image fix */
     .hp_footer {
-      background: #000000;
-      padding: 30px 0;
+      background: #212121;
+      padding: 0px 0;
       width:100%;
     }
 
@@ -398,7 +398,7 @@
     .hp_footer::before {
       content: "";
       display: block;
-      height: 1px;
+      height: 0px;
       background: rgba(255,255,255,0.08);
       margin-bottom: 0px;
     }
@@ -731,24 +731,25 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center" style="
-        padding:40px 20px;
-        background: linear-gradient(135deg, #000000, #000000);
-        border-top: 1px solid rgba(0, 0, 0, 0);
+        padding:0px 0px;
+        background-color: #212121;
+        border-top: 1px solid rgba(33, 33, 33);
       ">
 
         <!-- LOGO / IMAGE -->
         <img 
           src="werewqwe.jpg"
           style="
+            width:100%;
             max-width:100%;
             opacity:1;
-            margin-bottom:5px;
+            margin-bottom:0px;
             filter: brightness(1);
           "
         >
 
         <!-- TEXT -->
-        <p style="
+        <!-- <p style="
           color:#aaa;
           font-size:13px;
           margin-bottom:5px;
@@ -761,7 +762,7 @@
           font-size:12px;
         ">
           Support available for installation & setup assistance
-        </p>
+        </p> -->
 
       </div>
     </div>
