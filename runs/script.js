@@ -129,3 +129,27 @@ $(document).on("click", ".downloadBtn, .btn-close", function () {
   $("#installErrorBox").hide();
   $("#installStatusText").text("Initializing...");
 });
+
+
+// =============================
+// SUPPORT FORM SUBMIT
+// =============================
+
+$(document).on("submit", "#supportForm", function (e) {
+  e.preventDefault();
+
+  let formData = $(this).serialize();
+
+  $.ajax({
+    url: "send_mail.php",
+    type: "POST",
+    data: formData,
+    success: function (response) {
+      $("#supportForm").hide();
+      $("#formSuccessMsg").fadeIn();
+    },
+    error: function () {
+      alert("Something went wrong. Please try again.");
+    }
+  });
+});
