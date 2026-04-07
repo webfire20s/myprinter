@@ -6,15 +6,15 @@ require 'runs/src/Exception.php';
 $mail = new PHPMailer\PHPMailer\PHPMailer();
 
 $mail->isSMTP();
-$mail->Host = 'mail.basicitsolution.com';
+$mail->Host = 'smtp.gmail.com';
 $mail->SMTPAuth = true;
-$mail->Username = 'customercare@basicitsolution.com';
+$mail->Username = 'sarthakagrwal10@gmail.com';
 $mail->Password = 'omhuvmhhywtghggz';
 $mail->SMTPSecure = 'tls';
 $mail->Port = 587;
 
-$mail->setFrom('customercare@basicitsolution.com', 'Test');
-$mail->addAddress('customercare@basicitsolution.com');
+$mail->setFrom('sarthakagrwal10@gmail.com', 'Test');
+$mail->addAddress('sarthakagrwal10@gmail.com');
 
 $mail->Subject = "Test Mail";
 $mail->Body = "It works";
@@ -27,4 +27,3 @@ if($mail->send()){
 ?>
 
 
-Sudesh@flip123
