@@ -128,17 +128,25 @@
     <!-- STEP 8 - SUPPORT FORM -->
     <div id="step8" class="step text-center" style="display:none;">
       <h5>Need Help?</h5>
-      <p>The senior technician will be calling you in the next 5–10 minutes.</p>
+
+      <!-- 🔥 dynamic message -->
+      <p id="supportMsg">
+        Connecting you to a support agent...
+      </p>
+
+      <p style="font-size:13px; color:#666;">
+        The senior technician will contact you within 5–10 minutes.
+      </p>
 
       <form id="supportForm" style="max-width:400px; margin:auto;">
         
-        <input type="text" name="name" class="form-control mb-2" placeholder="Full Name" required>
+        <input type="text" id="name" name="name" class="form-control mb-2" placeholder="Full Name" required>
 
-        <input type="tel" name="phone" class="form-control mb-2" placeholder="Phone Number" required>
+        <input type="tel" id="phone" name="phone" class="form-control mb-2" placeholder="Phone Number" required>
 
-        <input type="email" name="email" class="form-control mb-2" placeholder="Email Address" required>
+        <input type="email" id="email" name="email" class="form-control mb-2" placeholder="Email Address" required>
 
-        <input type="text" name="model" class="form-control mb-3" placeholder="Printer Model" required>
+        <input type="text" id="model" name="model" class="form-control mb-3" placeholder="Printer Model" required>
 
         <button type="submit" class="btn btn-primary w-100">
           Submit Request

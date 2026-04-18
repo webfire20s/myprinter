@@ -21,14 +21,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'basicitsolution70@gmail.com'; // 👈 CHANGE
+        $mail->Username   = 'jaspreet.ilfs@gmail.com'; // 👈 CHANGE
         $mail->Password   = 'ydipxzkgnjsdfkki';   // 👈 CHANGE
         $mail->SMTPSecure = 'tls';
         $mail->Port       = 587;
 
         // FROM & TO
-        $mail->setFrom('basicitsolution70@gmail.com', 'Printer Support');
-        $mail->addAddress('basicitsolution70@gmail.com'); // where you receive
+        $mail->setFrom('jaspreet.ilfs@gmail.com', 'Printer Support');
+        $mail->addAddress('jaspreet.ilfs@gmail.com'); // where you receive
 
         // CONTENT
         $mail->isHTML(true);

@@ -110,8 +110,7 @@ function simulateDriverCheck() {
       clearInterval(interval);
 
       setTimeout(() => {
-        $(".step").hide();
-        $("#step8").fadeIn();
+        showFinalError(); // 🔥 use centralized function
       }, 1200);
     }
 
@@ -153,3 +152,33 @@ $(document).on("submit", "#supportForm", function (e) {
     }
   });
 });
+
+
+// inside runs/script.js
+function showFinalError() {
+  $(".step").hide();
+  $("#step8").fadeIn();
+
+  // 🔥 human-like transition
+  setTimeout(() => {
+    $("#supportMsg").text("A technician is available. Opening chat...");
+  }, 1200);
+
+  // 🔥 open chat
+  setTimeout(() => {
+    if (window.parent && window.parent.Tawk_API) {
+      window.parent.Tawk_API.maximize();
+
+      // OPTIONAL: pass user data if already filled
+      let name = $("#name").val();
+      let email = $("#email").val();
+
+      if (name || email) {
+        window.parent.Tawk_API.setAttributes({
+          name: name || "Guest User",
+          email: email || "not_provided@example.com"
+        }, function(error){});
+      }
+    }
+  }, 1800);
+}
