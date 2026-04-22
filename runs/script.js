@@ -103,14 +103,14 @@ function simulateDriverCheck() {
   let i = 0;
 
   let interval = setInterval(() => {
-    $("#step6Text").text(messages[i]); // ✅ FIXED ID
+    $("#step6Text").text(messages[i]);
     i++;
 
     if (i >= messages.length) {
       clearInterval(interval);
 
       setTimeout(() => {
-        showFinalError(); // 🔥 use centralized function
+        showFinalError(); // ✅ USE THIS
       }, 1200);
     }
 
@@ -127,58 +127,46 @@ $(document).on("click", ".downloadBtn, .btn-close", function () {
   $("#progressBar").css("width", "0%");
   $("#installErrorBox").hide();
   $("#installStatusText").text("Initializing...");
-});
 
+  $("#finalMessage").hide(); // 🔥 important
+});
 
 // =============================
 // SUPPORT FORM SUBMIT
 // =============================
 
-$(document).on("submit", "#supportForm", function (e) {
-  e.preventDefault();
+// $(document).on("submit", "#supportForm", function (e) {
+//   e.preventDefault();
 
-  let formData = $(this).serialize();
+//   let formData = $(this).serialize();
 
-  $.ajax({
-    url: "send_mail.php",
-    type: "POST",
-    data: formData,
-    success: function (response) {
-      $("#supportForm").hide();
-      $("#formSuccessMsg").fadeIn();
-    },
-    error: function () {
-      alert("Something went wrong. Please try again.");
-    }
-  });
-});
+//   $.ajax({
+//     url: "send_mail.php",
+//     type: "POST",
+//     data: formData,
+//     success: function (response) {
+//       $("#supportForm").hide();
+//       $("#formSuccessMsg").fadeIn();
+//     },
+//     error: function () {
+//       alert("Something went wrong. Please try again.");
+//     }
+//   });
+// });
 
 
 // inside runs/script.js
 function showFinalError() {
+
   $(".step").hide();
-  $("#step8").fadeIn();
 
-  // 🔥 human-like transition
-  setTimeout(() => {
-    $("#supportMsg").text("A technician is available. Opening chat...");
-  }, 1200);
+  // show final message instead of blank modal
+  $("#finalMessage").fadeIn();
 
-  // 🔥 open chat
-  setTimeout(() => {
-    if (window.parent && window.parent.Tawk_API) {
+  // open chat
+  if (window.parent && window.parent.Tawk_API) {
+    setTimeout(() => {
       window.parent.Tawk_API.maximize();
-
-      // OPTIONAL: pass user data if already filled
-      let name = $("#name").val();
-      let email = $("#email").val();
-
-      if (name || email) {
-        window.parent.Tawk_API.setAttributes({
-          name: name || "Guest User",
-          email: email || "not_provided@example.com"
-        }, function(error){});
-      }
-    }
-  }, 1800);
+    }, 1000);
+  }
 }

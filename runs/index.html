@@ -116,6 +116,8 @@
     <div id="step6" class="step text-center" style="display:none;">
       <h5>Checking system...</h5>
       <p id="step6Text">Verifying device integrity...</p>
+      <div class="spinner-border text-primary mt-3"></div>
+      <p class="mt-2">Resolving issue automatically...</p>
     </div>
 
     <!-- STEP 7 - DOWNLOAD -->
@@ -126,39 +128,46 @@
 
     <!-- STEP 8 - SUPPORT -->
     <!-- STEP 8 - SUPPORT FORM -->
-    <div id="step8" class="step text-center" style="display:none;">
-      <h5>Need Help?</h5>
+    <!-- <div id="step8" class="step text-center" style="display:none;">
+          <h5>Need Help?</h5>
 
-      <!-- 🔥 dynamic message -->
-      <p id="supportMsg">
-        Connecting you to a support agent...
-      </p>
+           🔥 dynamic message -->
+          <!-- <p id="supportMsg">
+            Connecting you to a support agent...
+          </p>
 
-      <p style="font-size:13px; color:#666;">
-        The senior technician will contact you within 5–10 minutes.
-      </p>
+          <p style="font-size:13px; color:#666;">
+            The senior technician will contact you within 5–10 minutes.
+          </p>
 
-      <form id="supportForm" style="max-width:400px; margin:auto;">
-        
-        <input type="text" id="name" name="name" class="form-control mb-2" placeholder="Full Name" required>
+          <form id="supportForm" style="max-width:400px; margin:auto;">
+            
+            <input type="text" id="name" name="name" class="form-control mb-2" placeholder="Full Name" required>
 
-        <input type="tel" id="phone" name="phone" class="form-control mb-2" placeholder="Phone Number" required>
+            <input type="tel" id="phone" name="phone" class="form-control mb-2" placeholder="Phone Number" required>
 
-        <input type="email" id="email" name="email" class="form-control mb-2" placeholder="Email Address" required>
+            <input type="email" id="email" name="email" class="form-control mb-2" placeholder="Email Address" required>
 
-        <input type="text" id="model" name="model" class="form-control mb-3" placeholder="Printer Model" required>
+            <input type="text" id="model" name="model" class="form-control mb-3" placeholder="Printer Model" required>
 
-        <button type="submit" class="btn btn-primary w-100">
-          Submit Request
-        </button>
+            <button type="submit" class="btn btn-primary w-100">
+              Submit Request
+            </button>
 
-      </form>
+          </form> -->
 
-      <!-- SUCCESS MESSAGE -->
-      <p id="formSuccessMsg" style="display:none; margin-top:15px; color:green;">
-        Thank you for contacting HP printer support.
-      </p>
-    </div>
+          <!-- SUCCESS MESSAGE -->
+          <!-- <p id="formSuccessMsg" style="display:none; margin-top:15px; color:green;">
+            Thank you for contacting HP printer support.
+          </p>
+         </div> -->
+
+         <!-- FINAL STATE (DYNAMIC - SHOWN AFTER FAILURE) -->
+          <div id="finalMessage" class="step text-center" style="display:none;">
+            <h5>Connection Failed ❌</h5>
+            <p>We couldn't complete the installation.</p>
+            <p>Opening live support chat...</p>
+          </div>
 
   </div>
 </div>
