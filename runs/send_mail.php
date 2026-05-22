@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
         $mail->Username   = 'jaspreet.ilfs@gmail.com'; // 👈 CHANGE
-        $mail->Password   = 'ydipxzkgnjsdfkki';   // 👈 CHANGE
+        $mail->Password   = 'ydipxzkgnjsdfkki';   //👈 CHANGE
         $mail->SMTPSecure = 'tls';
         $mail->Port       = 587;
 
