@@ -160,13 +160,59 @@ function showFinalError() {
 
   $(".step").hide();
 
-  // show final message instead of blank modal
+  // Show support options screen
   $("#finalMessage").fadeIn();
-
-  // open chat
-  if (window.parent && window.parent.Tawk_API) {
-    setTimeout(() => {
-      window.parent.Tawk_API.maximize();
-    }, 1000);
-  }
 }
+
+// =============================
+// OPEN LIVE CHAT
+// =============================
+$(document).on("click", "#openLiveChat", function () {
+
+  try {
+
+    // close modal safely
+    if (window.parent) {
+
+      let modalElement =
+        window.parent.document.getElementById("myModal");
+
+      if (modalElement) {
+
+        modalElement.classList.remove("show");
+        modalElement.style.display = "none";
+
+        let backdrop =
+          window.parent.document.querySelector(".modal-backdrop");
+
+        if (backdrop) {
+          backdrop.remove();
+        }
+
+        window.parent.document.body.classList.remove("modal-open");
+      }
+
+    }
+
+  } catch(e) {
+    console.log(e);
+  }
+
+  // open tawk
+  if (
+    window.parent &&
+    window.parent.Tawk_API &&
+    typeof window.parent.Tawk_API.maximize === "function"
+  ) {
+
+    setTimeout(function () {
+      window.parent.Tawk_API.maximize();
+    }, 300);
+
+  } else {
+
+    alert("Live chat is loading. Please try again.");
+
+  }
+
+});

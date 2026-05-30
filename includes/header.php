@@ -804,6 +804,124 @@
 
         border: 1px solid rgba(255,255,255,0.18);
     }
+    .info-highlight{
+    margin-top:20px;
+    background:#f2f8ff;
+    border-left:4px solid #0096d6;
+    padding:14px 18px;
+    border-radius:10px;
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.info-highlight i{
+    color:#0096d6;
+    font-size:22px;
+}
+
+.policy-list{
+    margin-top:10px;
+    padding-left:20px;
+}
+
+.policy-list li{
+    margin-bottom:10px;
+}
+
+  /* CONTACT CARDS */
+.contact-card {
+    height: 100%;
+
+    background: #fff;
+
+    border-radius: 22px;
+
+    padding: 35px 28px;
+
+    text-align: center;
+
+    border: 1px solid rgba(0,0,0,0.06);
+
+    box-shadow:
+        0 10px 30px rgba(0,0,0,0.05);
+
+    transition: all .3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-6px);
+
+    box-shadow:
+        0 20px 40px rgba(0,0,0,0.08);
+}
+
+.contact-card .feature-icon {
+    width: 72px;
+    height: 72px;
+
+    margin: 0 auto 24px;
+
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background:
+        linear-gradient(135deg,#0096d6,#005bea);
+
+    color: #fff;
+
+    font-size: 28px;
+
+    box-shadow:
+        0 8px 20px rgba(0,91,234,.25);
+}
+
+.contact-card h4 {
+    font-size: 24px;
+    font-weight: 600;
+
+    margin-bottom: 14px;
+
+    color: #111;
+}
+
+.contact-card p {
+    margin: 0;
+
+    font-size: 16px;
+
+    line-height: 1.8;
+
+    color: #666;
+
+    word-break: break-word;
+}
+    .contact-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.contact-card::before {
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 4px;
+
+    background:
+        linear-gradient(
+            90deg,
+            #0096d6,
+            #005bea
+        );
+}
   </style>
 </head>
 
@@ -825,7 +943,7 @@
               <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
 
                 <li class="nav-item">
-                  <a class="nav-link active" href="#">Home</a>
+                  <a class="nav-link active" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link " href="about.php">About Us</a>

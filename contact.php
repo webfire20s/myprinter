@@ -27,45 +27,55 @@
 
       <div class="row mt-5 g-4">
 
-        <div class="col-md-4">
-          <div class="feature-box">
-            <div class="feature-icon">
-              <i class="bi bi-telephone"></i>
+        <div class="col-lg-4 col-md-6">
+            <div class="contact-card">
+
+                <div class="feature-icon">
+                    <i class="bi bi-telephone"></i>
+                </div>
+
+                <h4>Phone Support</h4>
+
+                <p>
+                    +1 888 408 0730
+                </p>
+
             </div>
-
-            <h4>Phone Support</h4>
-
-            <p>+1 888 408 0730</p>
-          </div>
         </div>
 
-        <div class="col-md-4">
-          <div class="feature-box">
-            <div class="feature-icon">
-              <i class="bi bi-envelope"></i>
+        <div class="col-lg-4 col-md-6">
+            <div class="contact-card">
+
+                <div class="feature-icon">
+                    <i class="bi bi-envelope"></i>
+                </div>
+
+                <h4>Email Assistance</h4>
+
+                <p>
+                    customercare@basicitsolution.com
+                </p>
+
             </div>
-
-            <h4>Email Assistance</h4>
-
-            <p>customercare@basicitsolution.com</p>
-          </div>
         </div>
 
-        <div class="col-md-4">
-          <div class="feature-box">
-            <div class="feature-icon">
-              <i class="bi bi-chat-dots"></i>
+        <div class="col-lg-4 col-md-12">
+            <div class="contact-card">
+
+                <div class="feature-icon">
+                    <i class="bi bi-chat-dots"></i>
+                </div>
+
+                <h4>Live Chat</h4>
+
+                <p>
+                    Instant support available through our integrated support chat system.
+                </p>
+
             </div>
-
-            <h4>Live Chat</h4>
-
-            <p>
-              Instant support available through our integrated support chat system.
-            </p>
-          </div>
         </div>
 
-      </div>
+    </div>
 
     </div>
 

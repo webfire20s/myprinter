@@ -39,6 +39,16 @@
     .progress-bar {
       background-color: #0096d6;
     }
+    .support-card {
+      max-width:350px;
+      margin:auto;
+      padding:20px;
+    }
+
+    .support-card .btn{
+        padding:12px;
+        font-weight:600;
+    }
   </style>
 </head>
 <body>
@@ -163,10 +173,29 @@
          </div> -->
 
          <!-- FINAL STATE (DYNAMIC - SHOWN AFTER FAILURE) -->
+          <!-- FINAL SUPPORT OPTIONS -->
           <div id="finalMessage" class="step text-center" style="display:none;">
-            <h5>Connection Failed ❌</h5>
-            <p>We couldn't complete the installation.</p>
-            <p>Opening live support chat...</p>
+
+            <h4 class="mb-3">Need Assistance?</h4>
+
+            <p class="text-muted">
+              We couldn't complete the installation automatically.
+            </p>
+
+            <div class="d-grid gap-2 mt-4">
+
+              <a href="tel:+18884080730"
+                class="btn btn-primary">
+                📞 Call Customer Care
+              </a>
+
+              <button id="openLiveChat"
+                      class="btn btn-outline-primary">
+                💬 Open Live Chat
+              </button>
+
+            </div>
+
           </div>
 
   </div>

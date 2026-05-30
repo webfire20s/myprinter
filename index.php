@@ -313,5 +313,11 @@
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+  <script>
+setTimeout(() => {
+    console.log("Tawk:", window.Tawk_API);
+    console.log("maximize:", window.Tawk_API?.maximize);
+}, 5000);
+</script>
 <?php include 'includes/footer.php'; ?>
 

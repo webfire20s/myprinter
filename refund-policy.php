@@ -319,13 +319,13 @@
   <div class="container text-center">
 
     <span class="hero-badge">
-      Secure Billing Standards
+      Refund & Cancellation Policy
     </span>
 
     <h1>Refund & Payment Policy</h1>
 
     <p class="hero-subtext">
-      Transparent billing practices, payment standards, and software service policies designed to maintain clarity, compliance, and customer trust.
+      Learn about refund eligibility, cancellation procedures, billing disputes, and processing timelines for digital services provided by Basic IT Solution LLC.
     </p>
 
   </div>
@@ -335,234 +335,196 @@
   <div class="container">
 
     <!-- INTRO CARD -->
-    <div class="premium-card mb-4">
 
-      <h2>U.S. Software & IT Payment Standards</h2>
+    <!-- INTRO -->
+    <div class="policy-card">
 
-      <p class="intro-text">
-        In the United States, software and IT service agreements are generally
-        governed by industry-standard operational frameworks such as:
+      <h2>Digital Services Policy</h2>
+
+      <p>
+        Due to the specialized nature of custom software development, remote technical assistance, website configuration services, and digital deployment solutions, refund requests are reviewed individually to ensure fairness and transparency for all parties involved.
+      </p>
+
+    </div>
+
+    <!-- ELIGIBILITY -->
+    <div class="policy-card mt-4">
+
+      <h3>2. Eligibility Criteria</h3>
+
+      <p>
+        Refund requests may be considered under the following circumstances:
       </p>
 
       <div class="row g-4 mt-2">
 
-        <div class="col-md-4">
-          <div class="feature-box text-center">
-            <div class="feature-icon mx-auto">
-              <i class="bi bi-file-earmark-text"></i>
-            </div>
-
-            <h4>MSAs</h4>
-
-            <p>
-              Master Service Agreements define long-term service relationships
-              and responsibilities.
-            </p>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="feature-box text-center">
-            <div class="feature-icon mx-auto">
-              <i class="bi bi-journal-check"></i>
-            </div>
-
-            <h4>SOWs</h4>
-
-            <p>
-              Statements of Work establish project scope, milestones,
-              and deliverables.
-            </p>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="feature-box text-center">
-            <div class="feature-icon mx-auto">
-              <i class="bi bi-shield-lock"></i>
-            </div>
-
-            <h4>EULAs</h4>
-
-            <p>
-              End User License Agreements define software usage terms
-              and legal protections.
-            </p>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <!-- PAYMENT TIMING -->
-    <div class="premium-card mb-4">
-
-      <h2>1. Common Payment Timing</h2>
-
-      <p class="intro-text">
-        U.S. businesses commonly follow structured invoice cycles known as
-        “Net Terms.”
-      </p>
-
-      <div class="row g-4">
-
-        <div class="col-md-4">
+        <div class="col-md-6">
           <div class="feature-box">
             <div class="feature-icon">
-              <i class="bi bi-calendar-check"></i>
+              <i class="bi bi-x-circle"></i>
             </div>
 
-            <h4>Net 30</h4>
+            <h4>Service Not Delivered</h4>
 
             <p>
-              The industry standard where invoices are due within
-              30 days of issue.
+              The contracted service was not delivered, deployed, or completed as agreed.
             </p>
           </div>
         </div>
 
-        <div class="col-md-4">
-          <div class="feature-box">
-            <div class="feature-icon">
-              <i class="bi bi-clock-history"></i>
-            </div>
-
-            <h4>Flexible Cycles</h4>
-
-            <p>
-              Net 15, Net 45, and Net 60 terms are commonly used
-              depending on organization size.
-            </p>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="feature-box">
-            <div class="feature-icon">
-              <i class="bi bi-diagram-3"></i>
-            </div>
-
-            <h4>Milestone Billing</h4>
-
-            <p>
-              IT projects often use phased payments tied to project
-              delivery milestones.
-            </p>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <!-- PRICING MODELS -->
-    <div class="premium-card mb-4">
-
-      <h2>2. Pricing Models</h2>
-
-      <div class="row g-4">
-
-        <div class="col-md-4">
-          <div class="feature-box">
-            <div class="feature-icon">
-              <i class="bi bi-cash-stack"></i>
-            </div>
-
-            <h4>Fixed Fee</h4>
-
-            <p>
-              A predetermined project cost for clearly defined scopes
-              and deliverables.
-            </p>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="feature-box">
-            <div class="feature-icon">
-              <i class="bi bi-hourglass-split"></i>
-            </div>
-
-            <h4>Time & Materials</h4>
-
-            <p>
-              Billing based on hours worked and actual resources
-              utilized during execution.
-            </p>
-          </div>
-        </div>
-
-        <div class="col-md-4">
+        <div class="col-md-6">
           <div class="feature-box">
             <div class="feature-icon">
               <i class="bi bi-arrow-repeat"></i>
             </div>
 
-            <h4>Subscription Plans</h4>
+            <h4>Duplicate Payment</h4>
 
             <p>
-              Monthly or annual recurring service models commonly
-              used for SaaS platforms.
+              A verified duplicate transaction or billing error has occurred.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="feature-box">
+            <div class="feature-icon">
+              <i class="bi bi-exclamation-triangle"></i>
+            </div>
+
+            <h4>Technical Barrier</h4>
+
+            <p>
+              An unresolvable technical issue completely prevented service completion.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="feature-box">
+            <div class="feature-icon">
+              <i class="bi bi-headset"></i>
+            </div>
+
+            <h4>Customer Satisfaction Review</h4>
+
+            <p>
+              Concerns regarding delivered services must be reported within 30 days of project completion.
             </p>
           </div>
         </div>
 
       </div>
+
     </div>
 
-    <!-- PAYMENT METHODS -->
-    <div class="premium-card">
+    <!-- NON REFUNDABLE -->
+    <div class="policy-card mt-4">
 
-      <h2>3. Payment Methods & Fees</h2>
+      <h3>3. Non-Refundable Situations</h3>
 
       <div class="row g-4">
 
-        <div class="col-md-4">
+        <div class="col-md-6">
           <div class="feature-box">
             <div class="feature-icon">
-              <i class="bi bi-bank"></i>
+              <i class="bi bi-person-x"></i>
             </div>
 
-            <h4>ACH / Wire Transfer</h4>
+            <h4>Change of Mind</h4>
 
             <p>
-              Preferred for secure business transactions and reduced
-              processing fees.
+              Refunds are generally not available once software deployment or design implementation has commenced.
             </p>
           </div>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-6">
           <div class="feature-box">
             <div class="feature-icon">
-              <i class="bi bi-credit-card"></i>
+              <i class="bi bi-clock-history"></i>
             </div>
 
-            <h4>Credit Cards</h4>
+            <h4>Customer Delays</h4>
 
             <p>
-              Commonly accepted for smaller invoices and recurring
-              subscription payments.
-            </p>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="feature-box">
-            <div class="feature-icon">
-              <i class="bi bi-exclamation-circle"></i>
-            </div>
-
-            <h4>Late Fees</h4>
-
-            <p>
-              Overdue balances may incur standard monthly interest
-              charges depending on agreement terms.
+              Project delays caused by lack of communication, unavailable resources, or customer inactivity do not qualify for refunds.
             </p>
           </div>
         </div>
 
       </div>
+
     </div>
+
+    <!-- CANCELLATION -->
+    <div class="policy-card mt-4">
+
+      <h3>4. Cancellation</h3>
+
+      <p>
+        Customers may request project cancellation before development, programming, deployment, or diagnostic work has officially commenced. Once active implementation begins, cancellation eligibility may be limited.
+      </p>
+
+    </div>
+
+    <!-- CHARGEBACKS -->
+    <div class="policy-card mt-4">
+
+      <h3>5. Chargebacks</h3>
+
+      <p>
+        Customers agree to contact our support team before initiating chargebacks, payment disputes, or banking claims. We are committed to resolving billing concerns quickly and professionally whenever possible.
+      </p>
+
+    </div>
+
+    <!-- PROCESSING -->
+    <div class="policy-card mt-4">
+
+      <h3>6. Processing Time</h3>
+
+      <div class="feature-box">
+
+        <div class="feature-icon">
+          <i class="bi bi-bank"></i>
+        </div>
+
+        <h4>Refund Timeline</h4>
+
+        <p>
+          Approved refunds are returned to the original payment method. Processing generally requires 5–10 business days depending on banking institutions and payment providers.
+        </p>
+
+      </div>
+
+    </div>
+
+    <!-- CONTACT -->
+    <div class="policy-card mt-4">
+
+      <h3>7. Contact Support</h3>
+
+      <div class="feature-box">
+
+        <div class="feature-icon">
+          <i class="bi bi-envelope-paper"></i>
+        </div>
+
+        <h4>Basic IT Solution LLC</h4>
+
+        <p>
+          For refund requests, cancellations, or billing inquiries, please contact:
+        </p>
+
+        <p>
+          customercare@basicitsolution.com
+        </p>
+
+      </div>
+
+    </div>
+
 
   </div>
 </section>
