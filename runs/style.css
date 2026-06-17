@@ -339,3 +339,41 @@ h2 {
 
         border: 1px solid rgba(255,255,255,0.18);
     }
+
+    .hp_footer {
+    background: #212121;
+    padding: 40px 0;
+    border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+.footer-content {
+    max-width: 900px;
+    margin: auto;
+}
+
+.copyright-text {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.footer-description {
+    color: #bdbdbd;
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.footer-disclaimer {
+    color: #d6d6d6;
+    font-size: 13px;
+    line-height: 1.8;
+    padding-top: 15px;
+    border-top: 1px solid rgba(255,255,255,0.08);
+    margin-bottom: 0;
+}
+
+.footer-disclaimer strong {
+    color: #ffffff;
+}

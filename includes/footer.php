@@ -1,43 +1,72 @@
+<style>
+  .hp_footer {
+    background: #212121;
+    padding: 40px 0;
+    border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+.footer-content {
+    max-width: 900px;
+    margin: auto;
+}
+
+.copyright-text {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.footer-description {
+    color: #bdbdbd;
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.footer-disclaimer {
+    color: #d6d6d6;
+    font-size: 13px;
+    line-height: 1.8;
+    padding-top: 15px;
+    border-top: 1px solid rgba(255,255,255,0.08);
+    margin-bottom: 0;
+}
+
+.footer-disclaimer strong {
+    color: #ffffff;
+}
+</style>
 <div class="hp_footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center" style="
-        padding:0px 0px;
-        background-color: #212121;
-        border-top: 1px solid rgba(33, 33, 33);
-      ">
+    <div class="container">
 
-        <!-- LOGO / IMAGE -->
-        <img 
-          src="werewqwe.jpg"
-          style="
-            width:100%;
-            max-width:100%;
-            opacity:1;
-            margin-bottom:0px;
-            filter: brightness(1);
-          "
-        >
+        <div class="row justify-content-center">
 
-        <!-- TEXT -->
-        <!-- <p style="
-          color:#aaa;
-          font-size:13px;
-          margin-bottom:5px;
-        ">
-          © 2026 Printer Setup Portal
-        </p>
+            <div class="col-lg-10 text-center">
 
-        <p style="
-          color:#666;
-          font-size:12px;
-        ">
-          Support available for installation & setup assistance
-        </p> -->
+                <div class="footer-content">
 
-      </div>
+                    <p class="copyright-text">
+                        © <?php echo date('Y'); ?> Printer Setup Portal. All Rights Reserved.
+                    </p>
+
+                    <p class="footer-description">
+                        Support available for printer installation, setup assistance,
+                        troubleshooting, driver downloads, and technical guidance.
+                    </p>
+
+                    <p class="footer-disclaimer">
+                        <strong>Disclaimer:</strong>
+                        We are an independent third party service providers and are not associated with any brand.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
     </div>
-  </div>
 </div>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -79,7 +108,7 @@
   (function(){
     var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
     s1.async=true;
-    s1.src='https://embed.tawk.to/69e1e1f6c0e3ae1c3248d6e3/1jmd5lb7q';
+    s1.src='https://embed.tawk.to/69fb05a1d1b9df1c3bc818be/1jnu8s0ea';
     s1.charset='UTF-8';
     s1.setAttribute('crossorigin','*');
     s0.parentNode.insertBefore(s1,s0);
