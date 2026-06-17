@@ -518,7 +518,7 @@
         </p>
 
         <p>
-          customercare@basicitsolution.com
+          care@the123hp.com.com
         </p>
 
       </div>

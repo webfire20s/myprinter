@@ -53,7 +53,7 @@
                 <h4>Email Assistance</h4>
 
                 <p>
-                    customercare@basicitsolution.com
+                    care@the123hp.com.com
                 </p>
 
             </div>

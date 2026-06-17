@@ -250,7 +250,7 @@
         <h4>Basic IT Solution LLC</h4>
 
         <p>
-          Email: customercare@basicitsolution.com
+          Email: care@the123hp.com.com
         </p>
 
         <p>
