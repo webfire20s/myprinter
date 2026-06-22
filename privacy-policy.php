@@ -247,7 +247,7 @@
 
       <div class="feature-box">
 
-        <h4>Basic IT Solution LLC</h4>
+        <h4>HP Printer Setup</h4>
 
         <p>
           Email: care@the123hp.com.com

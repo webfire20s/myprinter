@@ -325,7 +325,7 @@
     <h1>Refund & Payment Policy</h1>
 
     <p class="hero-subtext">
-      Learn about refund eligibility, cancellation procedures, billing disputes, and processing timelines for digital services provided by Basic IT Solution LLC.
+      Learn about refund eligibility, cancellation procedures, billing disputes, and processing timelines for digital services provided by HP Printer Setup.
     </p>
 
   </div>
@@ -511,7 +511,7 @@
           <i class="bi bi-envelope-paper"></i>
         </div>
 
-        <h4>Basic IT Solution LLC</h4>
+        <h4>HP Printer Setup</h4>
 
         <p>
           For refund requests, cancellations, or billing inquiries, please contact:
