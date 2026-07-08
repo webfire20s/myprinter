@@ -933,7 +933,7 @@
           <div class="container">
             <a class="navbar-brand" href="./">
               <!-- <img src="new-hp-logo.png" style="width: 55px;"> -->
-               <span style=" width: 55px; font-weight: 800px;">BasicIT Solutions</span>
+               <span style=" width: 55px; font-weight: 800px;">Printers</span>
             </a>
             <button id="nab" class="navbar-toggler " type="button" data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
