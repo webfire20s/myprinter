@@ -247,7 +247,7 @@
 
       <div class="feature-box">
 
-        <h4>HP Printer Setup</h4>
+        <h4>Printer Setup</h4>
 
         <p>
           Email: care@the123hp.com.com

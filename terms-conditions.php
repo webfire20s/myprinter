@@ -103,7 +103,7 @@
       <h2>7. Intellectual Property</h2>
 
       <p>
-        All software code, website layouts, design assets, branding materials, and digital resources remain the exclusive property of HP Printer Setup unless otherwise agreed in writing.
+        All software code, website layouts, design assets, branding materials, and digital resources remain the exclusive property of  Printer Setup unless otherwise agreed in writing.
       </p>
 
       <div class="info-highlight">

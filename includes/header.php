@@ -7,8 +7,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>HP Printer Setup</title>
-  <link rel="icon" type="image/x-icon" href="new-hp-logo.png">
+  <title>Printer Setup Portal</title>
+  <!-- <link rel="icon" type="image/x-icon" href="new-hp-logo.png"> -->
   <link rel="stylesheet" href="style.css">
   <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -117,7 +117,7 @@
       position: absolute;
       right: 80px;
       border: 1px solid #0096D6;
-      border-radius: 19px !important;
+      border-radius: 59px !important;
       background: #0096D6;
       padding: 1px 4px 1px 4px;
     }
@@ -143,7 +143,7 @@
       background: rgba(255,255,255,0.95) !important;
       backdrop-filter: blur(10px);
       border-bottom: 1px solid rgba(0,0,0,0.05);
-      padding: 5px 0;
+      padding: 5px 10;
     }
 
     .navbar-nav .nav-link {
@@ -160,9 +160,9 @@
     /* Support Button */
     .dropdown {
       right: 0 !important;
-      border-radius: 30px !important;
-      padding: 6px 16px !important;
-      background: linear-gradient(135deg, #0096d6, #005bea);
+      border-radius: 60px !important;
+      padding: 3px 6px !important;
+      background: linear-gradient(135deg, #043e57, #70a7ff);
       box-shadow: 0 4px 12px rgba(0,0,0,0.1);
       border: none;
     }
@@ -932,7 +932,8 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container">
             <a class="navbar-brand" href="./">
-              <img src="new-hp-logo.png" style="width: 55px;">
+              <!-- <img src="new-hp-logo.png" style="width: 55px;"> -->
+               <span style=" width: 55px; font-weight: 800px;">BasicIT Solutions</span>
             </a>
             <button id="nab" class="navbar-toggler " type="button" data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"

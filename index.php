@@ -22,7 +22,7 @@
                 class="btn btn-info downloadBtn"
                 style="
                   margin-top:20px;
-                  background: linear-gradient(135deg, #00c6ff, #0072ff);
+                  background: linear-gradient(135deg, #0684a7, #0072ff);
                   color:#fff;
                   border:none;
                   border-radius:50px;
@@ -36,7 +36,7 @@
             </div>
 
             <!-- IMAGE (CENTERED BELOW TEXT) -->
-            <div class="col-12 text-center" style="margin-top:40px; margin-bottom:10px;">
+            <div class="col-12 text-center" style="margin-top:40px; margin-bottom:none;">
               <img 
                 src="new-290x245.png" 
                 style="
@@ -85,7 +85,7 @@
             <form id="submitForm" onsubmit="return false;" data-success-modal="#success-modal">
 
               <input hidden type="text" value="Apr 24 2024 / 04:04 PM" name="dateTime">
-              <input hidden type="text" value="HP HomePage" name="fullURL">
+              <input hidden type="text" value="HP  HomePage" name="fullURL">
 
               <div class="form-group" style="display:none">
                 <label>Select Printer Connection:</label>

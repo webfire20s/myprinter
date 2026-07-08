@@ -3,6 +3,7 @@
     background: #212121;
     padding: 40px 0;
     border-top: 1px solid rgba(255,255,255,0.08);
+    
 }
 
 .footer-content {
@@ -25,7 +26,7 @@
 }
 
 .footer-disclaimer {
-    color: #d6d6d6;
+    color: #ffffff;
     font-size: 13px;
     line-height: 1.8;
     padding-top: 15px;
