@@ -518,7 +518,7 @@
         </p>
 
         <p>
-          care@the123hp.com.com
+          care@printersupplies.info.com
         </p>
 
       </div>

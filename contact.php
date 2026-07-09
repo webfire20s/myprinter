@@ -37,7 +37,7 @@
                 <h4>Phone Support</h4>
 
                 <p>
-                    +1 888 681 9434
+                    +1 888 681 9434 <br> Toll Free
                 </p>
 
             </div>
@@ -53,7 +53,7 @@
                 <h4>Email Assistance</h4>
 
                 <p>
-                    care@the123hp.com.com
+                    care@printersupplies.info
                 </p>
 
             </div>

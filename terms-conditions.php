@@ -24,7 +24,7 @@
 
       <div class="info-highlight">
         <i class="bi bi-laptop"></i>
-        <span>Basic IT Solution Web Development and Design Studio</span>
+        <span>Printer Supplies Web Development and Design Studio</span>
       </div>
     </div>
 
@@ -116,7 +116,7 @@
       <h2>8. Limitation of Liability</h2>
 
       <p>
-        To the fullest extent permitted by law, Basic IT Solution shall not be liable for indirect, incidental, consequential, or special damages resulting from service interruptions or data loss.
+        To the fullest extent permitted by law, Printer Supplies shall not be liable for indirect, incidental, consequential, or special damages resulting from service interruptions or data loss.
       </p>
 
       <div class="info-highlight">

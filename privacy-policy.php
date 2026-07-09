@@ -250,7 +250,7 @@
         <h4>Printer Setup</h4>
 
         <p>
-          Email: care@the123hp.com.com
+          Email: care@printersupplies.info
         </p>
 
         <p>
