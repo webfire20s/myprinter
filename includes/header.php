@@ -962,7 +962,7 @@
                   <a class="nav-link" href="terms-conditions.php">Terms & Conditions</a>
                 </li>
                 <!-- //dropdown button -->
-                <div class="dropdown">
+                <!-- <div class="dropdown">
                   <li class="nav-item">
                     <a class="nav-link heading dropdown-toggle" href="#" id="dropdownMenuButton">
                       Get Support
@@ -992,7 +992,7 @@
                       </li>
                     </ul>
                   </li>
-                </div>
+                </div> -->
 
 
               </ul>
